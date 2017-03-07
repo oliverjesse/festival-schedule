@@ -1,0 +1,104 @@
+.cd-schedule .event-modal .body {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.cd-schedule .single-event[data-genre="hip-hop"],
+.cd-schedule [data-genre="hip-hop"] .header-bg {
+    /* this is used to set a background color for the event and the modal window */
+    background: rgba(240, 190, 0, 0.95);
+}
+
+.cd-schedule .single-event[data-genre="hip-hop"]:hover {
+    background: rgba(240, 220, 0, 1.0);
+}
+
+.cd-schedule .single-event[data-genre="dance"],
+.cd-schedule [data-genre="dance"] .header-bg {
+    /* this is used to set a background color for the event and the modal window */
+    background: rgba(0, 122, 235, 0.7);
+}
+
+.cd-schedule .single-event[data-genre="dance"]:hover {
+    background: rgba(0, 122, 255, 0.9);
+}
+
+.cd-schedule .single-event[data-genre="dj"],
+.cd-schedule [data-genre="dj"] .header-bg {
+    /* this is used to set a background color for the event and the modal window */
+    background: rgba(232, 41, 41, 0.8);
+}
+
+.cd-schedule .single-event[data-genre="dj"]:hover {
+    background: rgba(232, 41, 41, 1.0);
+}
+
+.cd-schedule .single-event[data-genre="pop"],
+.cd-schedule [data-genre="pop"] .header-bg {
+    /* this is used to set a background color for the event and the modal window */
+    background: rgba(255, 144, 44, 1.0);
+}
+
+.cd-schedule .single-event[data-genre="pop"]:hover {
+    background: rgba(255, 121, 0, 1.0);
+}
+
+.cd-schedule .single-event[data-genre="speaker"],
+.cd-schedule [data-genre="speaker"] .header-bg {
+    /* this is used to set a background color for the event and the modal window */
+    background: #00b700;
+}
+
+.cd-schedule .single-event[data-genre="speaker"]:hover {
+    background: #00a700;
+}
+
+.cd-schedule .single-event[data-genre="drag"],
+.cd-schedule [data-genre="drag"] .header-bg {
+    /* this is used to set a background color for the event and the modal window */
+    background: rgba(128,0,128,0.7);
+}
+
+.cd-schedule .single-event[data-genre="drag"]:hover {
+    background: #800080;
+}
+
+.cd-schedule .single-event[data-genre="party"],
+.cd-schedule [data-genre="party"] .header-bg {
+    /* this is used to set a background color for the event and the modal window */
+    background: #F77F92;
+}
+
+.cd-schedule .single-event[data-genre="party"]:hover {
+    background: #e74030;
+}
+
+@media only screen and (min-width: 800px) {
+    .cd-schedule .events.saturday .events-group > ul {
+        height: 1800px;
+        /* reset style */
+        display: block;
+        overflow: visible;
+        padding: 0;
+    }
+
+    .cd-schedule .events.sunday .events-group > ul {
+        height: 2100px;
+        /* reset style */
+        display: block;
+        overflow: visible;
+        padding: 0;
+    }
+
+    .cd-schedule .single-event.narrow .event-date {
+        display: none;
+    }
+
+    .cd-schedule .single-event.narrow .event-name {
+        margin-top: -5px;
+    }
+}
+
+.entry-content ol, .entry ol, .entry-content ul, .entry ul {
+    margin-left: 0px;
+}
